@@ -60,6 +60,9 @@ struct TrolleyView: View {
     }
 }
 
+
+//나기 바보 나기 바보
+
 //#Preview {
 //    TrolleyView()
 //}
