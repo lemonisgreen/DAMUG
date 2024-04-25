@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F154A4242BD003A3004C36F5 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F154A4222BD003A3004C36F5 /* Main.swift */; };
+		F154A4252BD003A3004C36F5 /* RegisterSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F154A4232BD003A3004C36F5 /* RegisterSheet.swift */; };
+		F154A4272BD0087A004C36F5 /* FridgeItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F154A4262BD0087A004C36F5 /* FridgeItemListView.swift */; };
+		F154A42A2BD0CFB8004C36F5 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F154A4292BD0CFB8004C36F5 /* Date+Extension.swift */; };
+		F1E156712BCC1A5B0018DA36 /* TrolleyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E156702BCC1A5B0018DA36 /* TrolleyViewModel.swift */; };
+		F1E1568E2BCD76280018DA36 /* FridgeModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E1568D2BCD76280018DA36 /* FridgeModalView.swift */; };
+		F1E156982BCE2BD70018DA36 /* CalendarListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E156972BCE2BD70018DA36 /* CalendarListView.swift */; };
+		F1E1569A2BCE4E710018DA36 /* ChangeNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E156992BCE4E710018DA36 /* ChangeNameView.swift */; };
+		F1E1569C2BCE571F0018DA36 /* DairyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E1569B2BCE571F0018DA36 /* DairyView.swift */; };
+		F1E1569E2BCE84650018DA36 /* FridgeListContentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E1569D2BCE84650018DA36 /* FridgeListContentsView.swift */; };
+		F1E156A02BCFA7A20018DA36 /* TrolleyModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E1569F2BCFA7A20018DA36 /* TrolleyModalView.swift */; };
+		F1E9AADC2BC91AFF0034537A /* DAMUGApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E9AADB2BC91AFF0034537A /* DAMUGApp.swift */; };
+		F1E9AADE2BC91AFF0034537A /* FridgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E9AADD2BC91AFF0034537A /* FridgeView.swift */; };
+		F1E9AAE02BC91B000034537A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E9AADF2BC91B000034537A /* Assets.xcassets */; };
+		F1E9AAE32BC91B000034537A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E9AAE22BC91B000034537A /* Preview Assets.xcassets */; };
+		F1E9AAF42BC9293C0034537A /* TrolleyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E9AAF32BC9293C0034537A /* TrolleyView.swift */; };
+		F1E9AAF82BC92E490034537A /* TabMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E9AAF72BC92E490034537A /* TabMainView.swift */; };
+		F1E9AAFA2BCA7F6A0034537A /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E9AAF92BCA7F6A0034537A /* CalendarView.swift */; };
+		F1E9AAFE2BCAB4820034537A /* CalendarHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E9AAFD2BCAB4820034537A /* CalendarHeadView.swift */; };
+		F1E9AB002BCAB6170034537A /* ContentHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E9AAFF2BCAB6170034537A /* ContentHeadView.swift */; };
+		F1E9AB042BCABDD50034537A /* TrolleyHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E9AB032BCABDD50034537A /* TrolleyHeadView.swift */; };
+		F1E9AB062BCABEC30034537A /* CalendarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E9AB052BCABEC30034537A /* CalendarContentView.swift */; };
+		F1E9AB082BCAC40A0034537A /* FrigerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E9AB072BCAC40A0034537A /* FrigerContentView.swift */; };
+		F1E9AB0A2BCAC68D0034537A /* TrolleyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E9AB092BCAC68D0034537A /* TrolleyListView.swift */; };
+		F1E9AB0C2BCB52AF0034537A /* FridgeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E9AB0B2BCB52AF0034537A /* FridgeListView.swift */; };
+		F1E9AB0E2BCBF7740034537A /* FrigerHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E9AB0D2BCBF7740034537A /* FrigerHeadView.swift */; };
+		F1E9AB182BCC0E270034537A /* 빈냉장고1.png in Resources */ = {isa = PBXBuildFile; fileRef = F1E9AB172BCC0E270034537A /* 빈냉장고1.png */; };
+		F1E9AB1A2BCC0E2D0034537A /* 빈냉장고2.png in Resources */ = {isa = PBXBuildFile; fileRef = F1E9AB192BCC0E2D0034537A /* 빈냉장고2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F154A4222BD003A3004C36F5 /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		F154A4232BD003A3004C36F5 /* RegisterSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterSheet.swift; sourceTree = "<group>"; };
+		F154A4262BD0087A004C36F5 /* FridgeItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeItemListView.swift; sourceTree = "<group>"; };
+		F154A4292BD0CFB8004C36F5 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		F1E156702BCC1A5B0018DA36 /* TrolleyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrolleyViewModel.swift; sourceTree = "<group>"; };
+		F1E1568D2BCD76280018DA36 /* FridgeModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeModalView.swift; sourceTree = "<group>"; };
+		F1E156972BCE2BD70018DA36 /* CalendarListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarListView.swift; sourceTree = "<group>"; };
+		F1E156992BCE4E710018DA36 /* ChangeNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeNameView.swift; sourceTree = "<group>"; };
+		F1E1569B2BCE571F0018DA36 /* DairyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DairyView.swift; sourceTree = "<group>"; };
+		F1E1569D2BCE84650018DA36 /* FridgeListContentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeListContentsView.swift; sourceTree = "<group>"; };
+		F1E1569F2BCFA7A20018DA36 /* TrolleyModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrolleyModalView.swift; sourceTree = "<group>"; };
+		F1E9AAD82BC91AFF0034537A /* DAMUG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DAMUG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E9AADB2BC91AFF0034537A /* DAMUGApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAMUGApp.swift; sourceTree = "<group>"; };
+		F1E9AADD2BC91AFF0034537A /* FridgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeView.swift; sourceTree = "<group>"; };
+		F1E9AADF2BC91B000034537A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1E9AAE22BC91B000034537A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F1E9AAF32BC9293C0034537A /* TrolleyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrolleyView.swift; sourceTree = "<group>"; };
+		F1E9AAF72BC92E490034537A /* TabMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMainView.swift; sourceTree = "<group>"; };
+		F1E9AAF92BCA7F6A0034537A /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		F1E9AAFD2BCAB4820034537A /* CalendarHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHeadView.swift; sourceTree = "<group>"; };
+		F1E9AAFF2BCAB6170034537A /* ContentHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHeadView.swift; sourceTree = "<group>"; };
+		F1E9AB032BCABDD50034537A /* TrolleyHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrolleyHeadView.swift; sourceTree = "<group>"; };
+		F1E9AB052BCABEC30034537A /* CalendarContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarContentView.swift; sourceTree = "<group>"; };
+		F1E9AB072BCAC40A0034537A /* FrigerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrigerContentView.swift; sourceTree = "<group>"; };
+		F1E9AB092BCAC68D0034537A /* TrolleyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrolleyListView.swift; sourceTree = "<group>"; };
+		F1E9AB0B2BCB52AF0034537A /* FridgeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeListView.swift; sourceTree = "<group>"; };
+		F1E9AB0D2BCBF7740034537A /* FrigerHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrigerHeadView.swift; sourceTree = "<group>"; };
+		F1E9AB172BCC0E270034537A /* 빈냉장고1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "빈냉장고1.png"; path = "DAMUG/View/Assets.xcassets/빈냉장고1.imageset/빈냉장고1.png"; sourceTree = SOURCE_ROOT; };
+		F1E9AB192BCC0E2D0034537A /* 빈냉장고2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "빈냉장고2.png"; path = "DAMUG/View/Assets.xcassets/빈냉장고2.imageset/빈냉장고2.png"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1E9AAD52BC91AFF0034537A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F154A4282BD0CFA7004C36F5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F154A4292BD0CFB8004C36F5 /* Date+Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F1E1566F2BCC1A240018DA36 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F1E156702BCC1A5B0018DA36 /* TrolleyViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F1E1568C2BCD704D0018DA36 /* FridgeHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F1E1568D2BCD76280018DA36 /* FridgeModalView.swift */,
+			);
+			path = FridgeHelper;
+			sourceTree = "<group>";
+		};
+		F1E9AACF2BC91AFF0034537A = {
+			isa = PBXGroup;
+			children = (
+				F1E9AADA2BC91AFF0034537A /* DAMUG */,
+				F1E9AAD92BC91AFF0034537A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1E9AAD92BC91AFF0034537A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1E9AAD82BC91AFF0034537A /* DAMUG.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1E9AADA2BC91AFF0034537A /* DAMUG */ = {
+			isa = PBXGroup;
+			children = (
+				F154A4282BD0CFA7004C36F5 /* Helper */,
+				F1E1566F2BCC1A240018DA36 /* ViewModel */,
+				F1E9AAE12BC91B000034537A /* Preview Content */,
+				F1E9AB0F2BCC0B4E0034537A /* App */,
+				F1E9AB102BCC0BE00034537A /* View */,
+			);
+			path = DAMUG;
+			sourceTree = "<group>";
+		};
+		F1E9AAE12BC91B000034537A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F1E9AAE22BC91B000034537A /* Preview Assets.xcassets */,
+				F1E9AB172BCC0E270034537A /* 빈냉장고1.png */,
+				F1E9AB192BCC0E2D0034537A /* 빈냉장고2.png */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F1E9AB0F2BCC0B4E0034537A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F1E9AAF72BC92E490034537A /* TabMainView.swift */,
+				F1E9AADB2BC91AFF0034537A /* DAMUGApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F1E9AB102BCC0BE00034537A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1E9AADF2BC91B000034537A /* Assets.xcassets */,
+				F1E9AB162BCC0CC10034537A /* Temp */,
+				F1E9AB112BCC0C170034537A /* Calendar */,
+				F1E9AB122BCC0C240034537A /* Fridge */,
+				F1E9AB132BCC0C2C0034537A /* Trolley */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1E9AB112BCC0C170034537A /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				F1E9AAF92BCA7F6A0034537A /* CalendarView.swift */,
+				F1E9AB142BCC0C710034537A /* CalendarHelper */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		F1E9AB122BCC0C240034537A /* Fridge */ = {
+			isa = PBXGroup;
+			children = (
+				F1E9AB0B2BCB52AF0034537A /* FridgeListView.swift */,
+				F1E1568C2BCD704D0018DA36 /* FridgeHelper */,
+			);
+			path = Fridge;
+			sourceTree = "<group>";
+		};
+		F1E9AB132BCC0C2C0034537A /* Trolley */ = {
+			isa = PBXGroup;
+			children = (
+				F1E9AAF32BC9293C0034537A /* TrolleyView.swift */,
+				F1E9AB152BCC0C990034537A /* TrolleyHelper */,
+			);
+			path = Trolley;
+			sourceTree = "<group>";
+		};
+		F1E9AB142BCC0C710034537A /* CalendarHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F1E9AAFD2BCAB4820034537A /* CalendarHeadView.swift */,
+				F1E9AB052BCABEC30034537A /* CalendarContentView.swift */,
+			);
+			path = CalendarHelper;
+			sourceTree = "<group>";
+		};
+		F1E9AB152BCC0C990034537A /* TrolleyHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F1E9AB092BCAC68D0034537A /* TrolleyListView.swift */,
+				F1E9AB032BCABDD50034537A /* TrolleyHeadView.swift */,
+				F1E1569F2BCFA7A20018DA36 /* TrolleyModalView.swift */,
+			);
+			path = TrolleyHelper;
+			sourceTree = "<group>";
+		};
+		F1E9AB162BCC0CC10034537A /* Temp */ = {
+			isa = PBXGroup;
+			children = (
+				F1E9AADD2BC91AFF0034537A /* FridgeView.swift */,
+				F154A4262BD0087A004C36F5 /* FridgeItemListView.swift */,
+				F1E156972BCE2BD70018DA36 /* CalendarListView.swift */,
+				F154A4222BD003A3004C36F5 /* Main.swift */,
+				F154A4232BD003A3004C36F5 /* RegisterSheet.swift */,
+				F1E156992BCE4E710018DA36 /* ChangeNameView.swift */,
+				F1E1569B2BCE571F0018DA36 /* DairyView.swift */,
+				F1E9AB072BCAC40A0034537A /* FrigerContentView.swift */,
+				F1E9AB0D2BCBF7740034537A /* FrigerHeadView.swift */,
+				F1E9AAFF2BCAB6170034537A /* ContentHeadView.swift */,
+				F1E1569D2BCE84650018DA36 /* FridgeListContentsView.swift */,
+			);
+			path = Temp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1E9AAD72BC91AFF0034537A /* DAMUG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1E9AAE62BC91B000034537A /* Build configuration list for PBXNativeTarget "DAMUG" */;
+			buildPhases = (
+				F1E9AAD42BC91AFF0034537A /* Sources */,
+				F1E9AAD52BC91AFF0034537A /* Frameworks */,
+				F1E9AAD62BC91AFF0034537A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DAMUG;
+			productName = DAMUG;
+			productReference = F1E9AAD82BC91AFF0034537A /* DAMUG.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1E9AAD02BC91AFF0034537A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F1E9AAD72BC91AFF0034537A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = F1E9AAD32BC91AFF0034537A /* Build configuration list for PBXProject "DAMUG" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1E9AACF2BC91AFF0034537A;
+			productRefGroup = F1E9AAD92BC91AFF0034537A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1E9AAD72BC91AFF0034537A /* DAMUG */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1E9AAD62BC91AFF0034537A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E9AB182BCC0E270034537A /* 빈냉장고1.png in Resources */,
+				F1E9AAE32BC91B000034537A /* Preview Assets.xcassets in Resources */,
+				F1E9AB1A2BCC0E2D0034537A /* 빈냉장고2.png in Resources */,
+				F1E9AAE02BC91B000034537A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1E9AAD42BC91AFF0034537A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E1568E2BCD76280018DA36 /* FridgeModalView.swift in Sources */,
+				F1E156A02BCFA7A20018DA36 /* TrolleyModalView.swift in Sources */,
+				F154A4272BD0087A004C36F5 /* FridgeItemListView.swift in Sources */,
+				F154A4242BD003A3004C36F5 /* Main.swift in Sources */,
+				F1E9AB042BCABDD50034537A /* TrolleyHeadView.swift in Sources */,
+				F154A42A2BD0CFB8004C36F5 /* Date+Extension.swift in Sources */,
+				F1E9AB082BCAC40A0034537A /* FrigerContentView.swift in Sources */,
+				F1E156982BCE2BD70018DA36 /* CalendarListView.swift in Sources */,
+				F1E9AB002BCAB6170034537A /* ContentHeadView.swift in Sources */,
+				F1E9AAFA2BCA7F6A0034537A /* CalendarView.swift in Sources */,
+				F1E9AADE2BC91AFF0034537A /* FridgeView.swift in Sources */,
+				F1E9AB0A2BCAC68D0034537A /* TrolleyListView.swift in Sources */,
+				F154A4252BD003A3004C36F5 /* RegisterSheet.swift in Sources */,
+				F1E156712BCC1A5B0018DA36 /* TrolleyViewModel.swift in Sources */,
+				F1E9AADC2BC91AFF0034537A /* DAMUGApp.swift in Sources */,
+				F1E9AB0C2BCB52AF0034537A /* FridgeListView.swift in Sources */,
+				F1E1569C2BCE571F0018DA36 /* DairyView.swift in Sources */,
+				F1E1569E2BCE84650018DA36 /* FridgeListContentsView.swift in Sources */,
+				F1E9AAF42BC9293C0034537A /* TrolleyView.swift in Sources */,
+				F1E1569A2BCE4E710018DA36 /* ChangeNameView.swift in Sources */,
+				F1E9AAF82BC92E490034537A /* TabMainView.swift in Sources */,
+				F1E9AB0E2BCBF7740034537A /* FrigerHeadView.swift in Sources */,
+				F1E9AB062BCABEC30034537A /* CalendarContentView.swift in Sources */,
+				F1E9AAFE2BCAB4820034537A /* CalendarHeadView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F1E9AAE42BC91B000034537A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1E9AAE52BC91B000034537A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1E9AAE72BC91B000034537A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DAMUG/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.DAMUG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1E9AAE82BC91B000034537A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DAMUG/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.DAMUG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1E9AAD32BC91AFF0034537A /* Build configuration list for PBXProject "DAMUG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E9AAE42BC91B000034537A /* Debug */,
+				F1E9AAE52BC91B000034537A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1E9AAE62BC91B000034537A /* Build configuration list for PBXNativeTarget "DAMUG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E9AAE72BC91B000034537A /* Debug */,
+				F1E9AAE82BC91B000034537A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1E9AAD02BC91AFF0034537A /* Project object */;
+}
